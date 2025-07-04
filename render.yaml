@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: oil-equipment-dashboard
+    env: docker
+    plan: free
+    region: singapore
+    branch: main
+    dockerfilePath: ./Dockerfile
+    buildCommand: ""
+    startCommand: "python app.py"
