@@ -37,11 +37,3 @@ It’s designed to mimic real-world use cases in **oil & gas companies like KOC*
 
 ---
 
-## 🖼️ Screenshot
-
-*(Add a screenshot later if needed)*
-
----
-
-## 🗂️ Folder Structure
-
