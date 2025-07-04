@@ -1,0 +1,20 @@
+[
+  {
+    "id": "Pump-001",
+    "temperature": 75,
+    "pressure": 120,
+    "status": "OK"
+  },
+  {
+    "id": "Valve-014",
+    "temperature": 90,
+    "pressure": 95,
+    "status": "Warning"
+  },
+  {
+    "id": "Generator-07",
+    "temperature": 110,
+    "pressure": 80,
+    "status": "Critical"
+  }
+]

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Oil Equipment Health Dashboard</title>
+  <style>
+    body { font-family: Arial; padding: 20px; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border: 1px solid #ddd; padding: 8px; }
+    th { background-color: #f2f2f2; }
+    .Critical { color: red; }
+    .Warning { color: orange; }
+    .OK { color: green; }
+  </style>
+</head>
+<body>
+  <h2>Equipment Health Status</h2>
+  <table>
+    <tr><th>ID</th><th>Temp (°C)</th><th>Pressure (psi)</th><th>Status</th></tr>
+    {% for item in equipment %}
+    <tr>
+      <td>{{ item.id }}</td>
+      <td>{{ item.temperature }}</td>
+      <td>{{ item.pressure }}</td>
+      <td class="{{ item.status }}">{{ item.status }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+</body>
+</html>
